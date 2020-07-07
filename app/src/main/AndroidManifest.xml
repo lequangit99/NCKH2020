@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nckh.nckh2020">
+
+    <application
+        android:name="com.nckh.nckh2020.GameApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.nckh.nckh2020.ta.MainTaActivity"></activity>
+        <activity android:name="com.nckh.nckh2020.MainActivity2"></activity>
+        <activity
+            android:name="com.nckh.nckh2020.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nckh.nckh2020.toan.MainMenu"
+            android:launchMode="singleTask">
+
+        </activity>
+        <activity
+            android:name="com.nckh.nckh2020.toan.StatsPage"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nckh.nckh2020.toan.SettingsPage"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.nckh.nckh2020.toan.GamePage"
+            android:launchMode="singleTask" />
+        <activity android:name="com.nckh.nckh2020.toan.DifficultyPage" />
+        <activity android:name="com.nckh.nckh2020.toan.GameOverPage" />
+        <activity android:name="com.nckh.nckh2020.toan.GameType"></activity>
+        <activity
+            android:name="com.nckh.nckh2020.ta.TabbedActivityDays"
+            android:label="@string/title_activity_tabbed"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.nckh.nckh2020.ta.TabbedActivityNumbers"
+            android:label="@string/title_activity_tabbed_numbers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.nckh.nckh2020.ta.TabbedActivityAnimals"
+            android:label="@string/title_activity_tabbed_animals"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.nckh.nckh2020.ta.TabbedActivityFruits"
+            android:label="@string/title_activity_tabbed_fruits"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.nckh.nckh2020.ta.TabbedActivityGoods"
+            android:label="@string/title_activity_tabbed_goods"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.nckh.nckh2020.ta.QuizMainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.nckh.nckh2020.ta.QuizConceptActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.nckh.nckh2020.ta.QuizResultActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.nckh.nckh2020.ta.QuizViewAnswerActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.nckh.nckh2020.ta.TabbedActivityColors"
+            android:label="@string/title_activity_tabbed_colors"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+    </application>
+
+</manifest>

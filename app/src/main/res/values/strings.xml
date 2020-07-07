@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NCKH2020</string>
+    <string name="debug">regular</string>
+    <string name="title_activity_tabbed">Ngày Tháng</string>
+    <string name="action_settings">Làm Bài Kiểm Tra</string>
+    <string name="section_format">Trái Cây</string>
+    <string name="title_activity_tabbed_numbers">Con Số</string>
+    <string name="title_activity_tabbed_animals">Động Vật</string>
+    <string name="title_activity_tabbed_fruits">Trái Cây</string>
+    <string name="title_activity_tabbed_goods">Đồ Vật</string>
+    <string name="title_activity_tabbed_colors">Màu Sắc</string>
+    <string name="txt_start_page">Đố Vui </string>
+    <string name="str_start_now">Bắt Đầu Ngay</string>
+    <string name="str_next">Xác Nhận</string>
+    <string name="str_done">Hoàn Thành </string>
+    <string name="str_results">Kết Quả</string>
+    <string name="str_gotohome">Về Trang Chủ</string>
+    <string name="str_viewans">Xem Kết Quả</string>
+    <string name="navigation_drawer_open">Mở Ngăn Kéo</string>
+    <string name="navigation_drawer_close">Đóng Ngăn Kéo</string>
+
+</resources>

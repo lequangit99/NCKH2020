@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/repeated_bg"
+    tools:context=".ta.MainTaActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container"
+        >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow
+                android:gravity="center"
+                android:layout_marginBottom="10dp">
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/daysandmonths"
+                    android:src="@drawable/gunler"
+                    android:layout_marginRight="50dp"
+                    android:scaleType="fitCenter"
+                    android:background="@color/fragmentbackground"
+                    />
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/numbers"
+                    android:src="@drawable/_1"
+                    android:scaleType="fitCenter"
+                    android:background="@color/fragmentbackground"
+                    />
+            </TableRow>
+            <TableRow android:gravity="center" android:layout_marginBottom="10dp"
+                android:layout_marginLeft="45dp">
+                <TextView
+                    android:text="Ngày Tháng"
+                    />
+                <TextView
+                    android:text="Con Số"
+                    />
+
+            </TableRow>
+
+            <TableRow android:gravity="center" android:layout_marginBottom="10dp">
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/animals"
+                    android:src="@drawable/dog"
+                    android:layout_marginRight="50dp"
+                    android:scaleType="fitCenter"
+                    android:background="@color/fragmentbackground"
+                    />
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/fruits"
+                    android:src="@drawable/apple"
+                    android:scaleType="fitCenter"
+                    android:background="@color/fragmentbackground"
+                    />
+            </TableRow>
+            <TableRow android:gravity="center" android:layout_marginBottom="10dp"  android:layout_marginLeft="40dp">
+                <TextView
+                    android:text="Động Vật"
+                    />
+                <TextView
+                    android:text="Trái Cây"
+                    />
+
+            </TableRow>
+            <TableRow android:gravity="center" android:layout_marginBottom="10dp">
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/bag"
+                    android:id="@+id/goods"
+                    android:layout_marginRight="50dp"
+                    android:scaleType="fitCenter"
+                    android:background="@color/fragmentbackground"
+                    />
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/color"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/colors"
+                    android:background="@color/fragmentbackground"
+                    />
+            </TableRow>
+            <TableRow android:gravity="center" android:layout_marginBottom="10dp"
+                android:layout_marginLeft="45dp">
+
+                <TextView
+                    android:text="Đồ Vật"
+                    />
+                <TextView
+                    android:text="Màu Sắc"
+                    />
+
+            </TableRow>
+            <TableRow android:gravity="center" android:layout_marginBottom="5dp" >
+
+                <Button
+                    android:id="@+id/quizyap"
+                    android:layout_width="137dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_button"
+                    android:text="START QUIZ " />
+
+                <Button
+                    android:id="@+id/home_ta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_button"
+                    android:text="HOME PAGE " />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
